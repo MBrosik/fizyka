@@ -1,5 +1,7 @@
 # quizzer
 
+[Original repo](https://github.com/matisiekpl/physics-quizer-blazu)
+
 ## Project setup
 ```
 yarn install
