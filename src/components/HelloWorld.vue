@@ -62,14 +62,14 @@
 
     <div class="desktop">
       <button @click="load(-1)" style="font-size: 16px;" class="button ">Wstecz</button>
-      <b style="margin-left: 4px; margin-right: 4px;">{{ i + 1 }}</b>
+      <b style="margin-left: 4px; margin-right: 4px;">{{ i + 1 }}/{{this.questions.length}}</b>
       <button @click="load(1)" style="font-size: 16px;" class="button">Dalej</button>
       <button @click="check" style="font-size: 16px; margin-right: 12px;" class="button style-accent">Sprawdź</button>
     </div>
 
     <div class="controls mobile">
       <button @click="load(-1)" style="font-size: 16px;" class="button ">Wstecz</button>
-      <b style="margin-left: 4px; margin-right: 4px;">{{ i + 1 }}</b>
+      <b style="margin-left: 4px; margin-right: 4px;">{{ i + 1 }}/{{this.questions.length}}</b>
       <button @click="load(1)" style="font-size: 16px;" class="button">Dalej</button>
       <button @click="check" style="font-size: 16px; margin-right: 12px;" class="button style-accent">Sprawdź</button>
     </div>
@@ -119,6 +119,15 @@ export default {
     load(direction = 1) {
       this.counted = false;
       this.i = Math.max(this.i + direction, 0);
+      if (this.i > this.questions.length - 1) {
+        if (this.answered_correctly < this.questions.length / 2) {
+          alert('Ojoj! Chyba będzie spotkanie z Rudą...');
+        } else {
+          alert('Czas na piwo!');
+        }
+        this.i--;
+        return;
+      }
       this.question = questions[this.i];
       const pairs = [];
       this.answer_a_correct = false;
@@ -130,14 +139,6 @@ export default {
       this.answer_c_selected = false;
       this.answer_d_selected = false;
       this.checking = false;
-      if (this.i > this.questions.length - 1) {
-        if (this.answered_correctly < 50) {
-          alert('Ojoj! Chyba będzie spotkanie z Rudą...');
-        } else {
-          alert('Czas na piwo!');
-        }
-        return;
-      }
       pairs.push([this.question['answer_a'], this.question['answer_a_correct']]);
       pairs.push([this.question['answer_b'], this.question['answer_b_correct']]);
       pairs.push([this.question['answer_c'], this.question['answer_c_correct']]);
