@@ -898,9 +898,9 @@
   {
     "question": "Które z ponizszych zadań nie odnosi się do modelu optyki geometrycznej?",
     "answer_a": "światło rozchodzi się jako strumień promieni",
-    "answer_b": "energia światła przenosi się nie poprzez ściśle okreliony tor ale jednocześnie wieloma drogami",
-    "answer_c": "obowiązuje gdy rozmiar przedmiotów jest porównywalny z dlugoscia fali",
-    "answer_d": "promienie biegną prostoliniowo do odla Swiatia a do momentu gdy napotkają przeszkodę lub zmianę ośrodka",
+    "answer_b": "energia światła przenosi się nie poprzez ściśle określony tor ale jednocześnie wieloma drogami",
+    "answer_c": "obowiązuje gdy rozmiar przedmiotów jest porównywalny z długością fali",
+    "answer_d": "promienie biegną prostoliniowo od źródła światła aż do momentu gdy napotkają przeszkodę lub zmianę ośrodka",
     "answer_a_correct": false,
     "answer_b_correct": true,
     "answer_c_correct": true,
