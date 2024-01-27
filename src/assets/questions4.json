@@ -473,13 +473,13 @@
     "answer_d_correct": false
   },
   {
-    "question": "Które ze stwiedzeń jest prawdziwe w stosunku do prawa załamania",
+    "question": "Które ze stwierdzeń jest prawdziwe w stosunku do prawa załamania",
     "answer_a": "Stosunek sinusa kąta padania do sinusa kąta załamania ma się jak stosunek długości pierwszej fali do drugiej ",
     "answer_b": "Stosunek sinusa kąta załamania do sinusa kąta padania ma się jak stosunek współczynnika załamania drugiego do pierwszego",
     "answer_c": "Stosunek sinusa kąta padania do sinusa kąta załamania ma się jak stosunek współczynnika załamania pierwszego do drugiego",
     "answer_d": "Stosunek sinusa kąta padania do sinusa kąta załamania ma się jak stosunek prędkości drugiej do prędkości pierwszej",
     "answer_a_correct": true,
-    "answer_b_correct": false,
+    "answer_b_correct": true,
     "answer_c_correct": false,
     "answer_d_correct": false
   },
@@ -1081,18 +1081,7 @@
     "answer_b_correct": true,
     "answer_c_correct": false,
     "answer_d_correct": false
-  },
-  {
-    "question": "Prawo załamania",
-    "answer_a": "Stosunek sinusa kąta padania do sinusa kąta załamania ma się jak stosunek współczynnika załamania pierwszego do drugiego",
-    "answer_b": "Stosunek sinusa kąta padania do sinusa kąta załamania ma się jak stosunek prędkości drugiej do prędkości pierwszej",
-    "answer_c": "Stosunek sinusa kąta załamania do sinusa kąta padania ma się jak stosunek współczynnika załamania drugiego do pierwszego",
-    "answer_d": "Stosunek sinusa kąta padania do sinusa kąta załamania ma się jak stosunek długości pierwszej fali do drugiej",
-    "answer_a_correct": false,
-    "answer_b_correct": false,
-    "answer_c_correct": true,
-    "answer_d_correct": true
-  },
+  }, 
   {
     "question": "Emisja wymuszona",
     "answer_a": "Rozkład musi być boltzmanowski",
