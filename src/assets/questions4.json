@@ -429,17 +429,6 @@
     "answer_d_correct": false
   },
   {
-    "question": "Długość fali - coś o ciele doskonale czarnym - zgodnie z prawem Wiena jak zależy od temperatury ",
-    "answer_a": "1/T",
-    "answer_b": "T4",
-    "answer_c": "T2",
-    "answer_d": "Odwrotność długości fali",
-    "answer_a_correct": true,
-    "answer_b_correct": false,
-    "answer_c_correct": false,
-    "answer_d_correct": false
-  },
-  {
     "question": "Które z doświadczeń udowodniło istnienie fal materii",
     "answer_a": "Davissona-Germera",
     "answer_b": "Comptona",
@@ -1213,16 +1202,5 @@
     "answer_b_correct": false,
     "answer_c_correct": true,
     "answer_d_correct": false
-  },  
-  {
-    "question": "Długość fali dla maksimum emisyjnego dla ciała doskonale czarnego", 
-    "answer_a": "proporcjonalne do T^4",
-    "answer_b": "proporcjonalne do T^2",
-    "answer_c": "proporcjonalne do 1/T",
-    "answer_d": "proporcjonalne do 1/lambda",
-    "answer_a_correct": false,
-    "answer_b_correct": false,
-    "answer_c_correct": true,
-    "answer_d_correct": false
-  } 
+  }
 ]
