@@ -308,17 +308,6 @@
     "answer_d_correct": false
   },
   {
-    "question": "Które z poniższych zdań dot. interferencji fal świetlnych nie jest prawdziwe?",
-    "answer_a": "Warunkiem powstania dobrze określonego obrazu interferencyjnego jest aby interferujące fale świetlne padały z dokładnie określoną, zmienną  w czasie różnicę faz",
-    "answer_b": "Różnica dróg optycznych przebytych przez fale składowe decyduje o natężeniu światła w punkcie nałożenia się fal",
-    "answer_c": "W każdej chwili wychylenie punktu przestrzeni jest sumą wychyleń docierających do niego zaburzeń falowych",
-    "answer_d": "Różnica faz fal składowych decyduje o natężeniu światła w punkcie nałożenia się fal",
-    "answer_a_correct": true,
-    "answer_b_correct": false,
-    "answer_c_correct": false,
-    "answer_d_correct": false
-  },
-  {
     "question": "Siła elektrodynamiczna:",
     "answer_a": "Siła, z jaką działa pole magnetyczne na przewód elektryczny, w którym płynie prąd elektryczny.",
     "answer_b": "Praca przypadająca na jednostkowy ładunek, jaką wykonuje ładunek",
@@ -651,18 +640,7 @@
     "answer_b_correct": false,
     "answer_c_correct": false,
     "answer_d_correct": true
-  },
-  {
-    "question": "Indukcyjnośc określa zależność pomiedzy następującymi wielkościami fizycznymi",
-    "answer_a": "Natężenie + strumień magnetyczny",
-    "answer_b": "Siła, natężenie, długość przewodnika",
-    "answer_c": "Siłę, ładunek, prędkość ładunku",
-    "answer_d": "Żadne z powyższych",
-    "answer_a_correct": true,
-    "answer_b_correct": false,
-    "answer_c_correct": false,
-    "answer_d_correct": false
-  },
+  }, 
   {
     "question": "Diamagnetyki - wskaż prawdziwe",
     "answer_a": "W polu magnetycznym tworza pole przeciwne do zewnętrzenego  ",
@@ -1147,17 +1125,6 @@
     "answer_c_correct": true,
     "answer_d_correct": false
   },    
-  {
-    "question": "Przewodnictwo typu n i typu p", 
-    "answer_a": "Przewodnictwo typu p wiąże się przesuwaniem się ładunków dodatnich w paśmie podstawowym zgodnie z kierunkiem wektora zewnętrznego pola elektrycznego",
-    "answer_b": "Przewodnictwo typu n polega na przemieszczaniu elektronów w paśmie przewodnictwa w kierunku przeciwnym do kierunku wektora zewnętrznego pola elektrycznego",
-    "answer_c": "Przewodnictwo typu n polega na przemieszczaniu elektronów w paśmie podstawowym w kierunku zgodnym z kierunkiem wektora zewnętrznego pola elektrycznego",
-    "answer_d": "Przewodnictwo typu p wiąże się przesuwaniem się ładunków dodatnich w paśmie przewodnictwa zgodnie z kierunkiem wektora zewnętrznego pola elektrycznego",
-    "answer_a_correct": true,
-    "answer_b_correct": true,
-    "answer_c_correct": false,
-    "answer_d_correct": false
-  },  
   {
     "question": "Które ze stwierdzeń dotyczących lasera He-Ne jest nieprawdziwe", 
     "answer_a": "Stosunek atomów Ne-He wynosi 10:1",
