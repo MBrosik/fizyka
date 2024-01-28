@@ -8,7 +8,7 @@
       <mark>{{ answered_correctly }}/{{ answered }}</mark>
     </small><br/><br/>
     <h5>{{ question['question'] }}</h5>
-    <div style="font-size: 18px; margin-bottom: 64px;">
+    <div style="font-size: 18px; margin-bottom: 30px;">
 
       <div v-if="question['answer_a']!==''">
         <input type="checkbox" id="answer_a" name="answer_a" v-model="answer_a_selected">
@@ -55,10 +55,7 @@
           <span class="red"
                 v-if="checking&&!answer_d_correct">Źle</span></label><br></div>
 
-    </div>
-
-    <h1 style="color: green" v-if="answer_a_correct&&answer_b_correct&&answer_c_correct&&answer_d_correct">
-      Gratulacje</h1>
+    </div>  
 
     <div class="desktop">
       <button @click="load(-1)" style="font-size: 16px;" class="button ">Wstecz</button>
@@ -73,6 +70,9 @@
       <button @click="load(1)" style="font-size: 16px;" class="button">Dalej</button>
       <button @click="check" style="font-size: 16px; margin-right: 12px;" class="button style-accent">Sprawdź</button>
     </div>
+
+    <h1 style="color: green; margin-top: 30px;" v-if="answer_a_correct&&answer_b_correct&&answer_c_correct&&answer_d_correct">
+      Gratulacje</h1>
   </div>
 </template>
 
