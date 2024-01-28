@@ -484,18 +484,6 @@
     "answer_d_correct": false
   },
   {
-    "question": "Pytanie związane z szerokością przerwy i zjawiskiem tunelowania.",
-    "answer_a": "Wraz ze wzrostem szerokości bariery ilość przechodzących cząstek nadmiarowych maleje eskpotencjalnie",
-    "answer_b": "Wraz ze wzrostem szerokości bariery ilość przechodzących cząstek nadmiarowych rośnie eskpotencjalnie",
-    "answer_c": "Wraz ze wzrostem szerokości bariery ilość przechodzących cząstek nadmiarowych maleje liniowo",
-    "answer_d": "Wraz ze wzrostem szerokości bariery ilość przechodzących cząstek nadmiarowych rośnie liniowo",
-    "answer_a_correct": true,
-    "answer_b_correct": false,
-    "answer_c_correct": false,
-    "answer_d_correct": false
-  },
-
-  {
     "question": "Wskaż stwierdzenie nieprawdziwe w odniesieniu do szeregowego obwodu RL",
     "answer_a": "Indukcyjna stała czasowa wyrażona jest jako stosunek oporu do indukcyjności cewki",
     "answer_b": "Natężenie prądu w obwodzie narasta eksponencjalnie do wartości SEM/R",
@@ -1114,18 +1102,7 @@
     "answer_b_correct": false,
     "answer_c_correct": true,
     "answer_d_correct": true
-  },  
-  {
-    "question": "Która cecha fotonów jest nieprawdziwa?",
-    "answer_a": "zmieniając ośrodek zmienia się długość fali",
-    "answer_b": "nie posiada masy spoczynkowe",
-    "answer_c": "prędkość w danym ośrodku zależy od współczynnika załamania",
-    "answer_d": "zmieniając ośrodek zmienia się częstotliwość",
-    "answer_a_correct": false,
-    "answer_b_correct": false,
-    "answer_c_correct": false,
-    "answer_d_correct": true
-  },
+  }, 
   {
     "question": "Które ze stwierdzeń jest słuszne dla diamagnetyków?",
     "answer_a": "Jeżeli pole jest niejednorodne, materiał diamagnetyczny jest wypychany z obszaru mocniejszego pola magnetycznego do obszaru słabszego pola magnetycznego",
