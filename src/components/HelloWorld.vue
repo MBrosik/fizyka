@@ -2,7 +2,7 @@
   <div class="hello" style="padding: 12px;">
 
     <small><a target="_blank"
-              href="https://github.com/matisiekpl/physics-quizer-blazu/blob/master/src/assets/questions4.json">github</a></small><br/>
+              href="https://github.com/MBrosik/fizyka/blob/main/src/assets/questions4.json">github</a></small><br/>
 
     <small>Odpowiedziałeś poprawnie
       <mark>{{ answered_correctly }}/{{ answered }}</mark>
